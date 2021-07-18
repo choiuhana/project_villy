@@ -3,7 +3,7 @@
 .Main {
   .mainPage {
     @include display-flex(center, center);
-    background-image: url(images/main.jpg);
+    background-image: url(/images/main.jpg);
     background-size: cover;
     background-position: center;
 
