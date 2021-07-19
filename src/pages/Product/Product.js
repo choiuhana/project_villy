@@ -41,7 +41,7 @@ export class Product extends Component {
           });
         });
     } else
-      fetch(`${GET_PRODUCTS_API}`, {
+      fetch(`${GET_PRODUCTS_API}?`, {
         headers: { Authorization: localStorage.getItem('access_token') },
       })
         .then(res => res.json())
